@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "code-runner.executorMap": {
+        // ...
+        "cpp": "cd $dir && g++ $fileName -Wall -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    }    // used -Wall here
+    }
+}
