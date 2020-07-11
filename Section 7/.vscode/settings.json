@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "code-runner.executorMap": {
+        // ...
+        "cpp": "cd $dir && g++ -std=c++14 $fileName -W -Wall -pedantic -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    }    // used -Wall here
+    }
+}

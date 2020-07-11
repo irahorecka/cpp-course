@@ -1,4 +1,5 @@
 folder:
+	# FOR VSCODE USE
 	# Make settings folder with settings.json + src/ if dir does not exist.
 	@read -p "Enter folder section number: " number; \
 	if [ ! -d ./Section\ $$number/ ]; then \

@@ -1,0 +1,2 @@
+2020-07-10:
+	Until further notice, Section 7 and forward will use CodeLite IDE for dev.
