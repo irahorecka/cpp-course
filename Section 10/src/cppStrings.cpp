@@ -26,7 +26,7 @@ int main() {
     string sentence;
     sentence = s2 + " " + s7;
     // this is illegal:
-    // sentence = "C++" + " is powerful";
+    // sentence = "C++" + " is powerful";  // can't have two c-style string literals next to each other
     cout << sentence << endl;
 
     // subscripting
@@ -50,7 +50,6 @@ int main() {
 
     // the find method - returns the index of beginning of char or string
     // object.find(search_string)
-
     cout << s10.find("test") << endl;
     cout << s10.find("test", 7) << endl;  // look for "test" after the 7th index
     cout << s10.find("XX") << endl;  // string::npos -- couldn't find it.
