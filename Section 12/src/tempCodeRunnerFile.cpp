@@ -1,1 +1,3 @@
-largest_num{largest_int(point_num1, point_num2)}
+
+            *(new_array + indx) = arr1[i] * arr2[j];
+            indx++;

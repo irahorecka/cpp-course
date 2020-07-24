@@ -2,7 +2,7 @@
     "C_Cpp.errorSquiggles": "Disabled",
     "code-runner.executorMap": {
         // ...
-        "cpp": "cd $dir && g++ -std=c++17 $fileName -W -Wall -pedantic -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+        "cpp": "cd $dir && g++ -std=c++17 -g $fileName -W -Wall -pedantic -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     }    // used -Wall here
     }
 }
