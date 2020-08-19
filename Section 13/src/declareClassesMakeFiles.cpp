@@ -7,9 +7,9 @@ using namespace std;
 // an introduction to OOP in CPP
 class Player {  // blueprint to create player objects from
     // attributes
-    string name;  // str obj has default empty value
-    int health;  // garbage data init
-    int xp;
+    string name{"Player"};  // str obj has default empty value
+    int health{0};  // garbage data init
+    int xp{3};
 
     // methods
     void talk(string);
@@ -18,8 +18,22 @@ class Player {  // blueprint to create player objects from
 
 };  // need ; at end of class declaration
 
+class Account {
+    // attributes
+    string name{"Account"};
+    double balance{0};
+
+    // methods
+    bool deposit(double);
+    bool withdraw(double);
+};
 
 int main() {
+    Account frank_account;
+    Account jim_account;
+
+
+
     // make objects on the stack
     Player frank;
     Player hero;
