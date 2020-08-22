@@ -36,6 +36,7 @@ int main() {
     Player *enemy = new Player("Enemy", 1000, 0);
     delete enemy;  // destructor called
     // note: destructors are called when objects go out of scope
+    // destructors are called first for objects created the latest within the scope (top -> down)
 
     return 0;
 }
